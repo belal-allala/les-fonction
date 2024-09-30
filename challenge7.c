@@ -20,9 +20,7 @@ int main() {
     printf("entrer une chaine de caracteres : ");
     fgets(chaine, sizeof(chaine), stdin);
 
-    //chaine[strcspn(chaine, "\n")] = '\0';
-
-    printf("La chaîne inversée est : %s\n", inverser(chaine));
+    printf("la chaine inversee est : %s\n", inverser(chaine));
 
     return 0;
 }
